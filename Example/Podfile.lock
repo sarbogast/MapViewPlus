@@ -1,19 +1,23 @@
 PODS:
-  - Kingfisher (4.6.3)
-  - MapViewPlus (0.1.0):
-    - Kingfisher (~> 4.6.3)
+  - Kingfisher (5.4.0)
+  - MapViewPlus (0.1.1):
+    - Kingfisher (~> 5.3)
 
 DEPENDENCIES:
   - MapViewPlus (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+
 EXTERNAL SOURCES:
   MapViewPlus:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
-  MapViewPlus: d697bb1591521001bfaa42dd3d055892ac97e26a
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  MapViewPlus: 708fa65817077822170fc954dc7727bd0359490c
 
-PODFILE CHECKSUM: b1a4f230a6b224ef6ae017c8175433228bad92f5
+PODFILE CHECKSUM: c12a7ccba7183eb3c97558036bfa27ec2da432c0
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

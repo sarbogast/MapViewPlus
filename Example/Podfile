@@ -1,6 +1,8 @@
-use_frameworks!
+platform :ios, '10.0'
 
 target 'MapViewPlus_Example' do
-  pod 'MapViewPlus', :path => '../'
+    use_frameworks!
+    
+    pod 'MapViewPlus', :path => '../'
 
 end

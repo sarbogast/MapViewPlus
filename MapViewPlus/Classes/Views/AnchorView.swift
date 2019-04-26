@@ -56,7 +56,7 @@ public final class AnchorView: UIView, AnchorViewDesignable {
         super.init(coder: aDecoder)
     }
 
-    open override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         
         guard let startingPoint = startingPoint, let firstLineEndPoint = firstLineEndPoint, let secondLineEndPoint = secondLineEndPoint else { return }
         

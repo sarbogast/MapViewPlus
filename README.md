@@ -10,6 +10,8 @@
 
 ## About
 
+NB: This fork updates dependency on KingFisher to version 5.3, Swift language version to 5, and minimum iOS target to iOS 10.0.
+
 MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnotation``` and ```calloutViewForAnnotationView``` delegate methods.
 
 - Return any UIImage from ```imageForAnnotation``` (image shouldn't have paddings)
